@@ -9,7 +9,7 @@ import module namespace dateTime = 'dateTime' at 'http://iro37.ru/res/repo/dateT
 let $data := .
   
 let $tr :=
-  for $i in $data//table/row
+  for $i in $data//table[ @label = 'Кафедры' ]/row
   let $f := fetch:xml( $i/cell[ @label = 'График КПК']/text() )
   return
   (
