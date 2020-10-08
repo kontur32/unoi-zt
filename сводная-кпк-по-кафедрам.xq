@@ -1,9 +1,13 @@
 import module namespace dateTime = 'dateTime' at 'http://iro37.ru/res/repo/dateTime.xqm';
 
-let $data :=
+(:
   fetch:xml(
     'http://iro37.ru:9984/zapolnititul/api/v2.1/data/publication/7d9b8696-f1be-4abb-9952-2b1947f8193c'
   )
+:)
+
+let $data := .
+  
 let $tr :=
   for $i in $data//table/row
   let $f := fetch:xml( $i/cell[ @label = 'График КПК']/text() )
@@ -67,7 +71,4 @@ let $site :=
   </html>
 
 return
-  (
-    $site, 
-    file:write( "C:\Users\kontu\Desktop\УНОИ-КПК.html", $site )
-  )
+    $site 
