@@ -101,7 +101,7 @@ return
     <body>
       <div class = 'container'>
         <nav class="navbar navbar-light bg-light">
-          <a class="navbar-brand" href="https://unoi.ru/">
+          <a class="navbar-brand" href="http://iro37.ru/res/trac-src/xqueries/unoi/unoi-test.html">
             <img src="https://thumb.tildacdn.com/tild6337-3765-4231-b434-666537306166/-/resize/59x/-/format/webp/image_1__2_-removebg.png" width="30" height="30" class="d-inline-block align-top" alt=""/>
             <span style = "color: #04b8ac;">УНИВЕРСИТЕТ НЕПРЕРЫВНОГО ОБРАЗОВАНИЯ И ИННОВАЦИЙ</span>
           </a>
