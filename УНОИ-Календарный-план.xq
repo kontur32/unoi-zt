@@ -102,7 +102,7 @@ return
       <div class = 'container'>
         <nav class="navbar navbar-light bg-light">
           <a class="navbar-brand" href="http://iro37.ru/res/trac-src/xqueries/unoi/unoi-test.html">
-            <img src="http://iro37.ru/res/trac-src/xqueries/unoi/image/logoUnoi.jpg" width="30" height="30" class="d-inline-block align-top" alt=""/>
+            <img src="http://iro37.ru/res/trac-src/xqueries/unoi/image/logoUnoi.jpg" width="180" height="100" class="d-inline-block align-top" alt=""/>
             <span style = "color: #04b8ac;">УНИВЕРСИТЕТ НЕПРЕРЫВНОГО ОБРАЗОВАНИЯ И ИННОВАЦИЙ</span>
           </a>
         </nav>
