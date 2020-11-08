@@ -65,8 +65,12 @@ let $site :=
             <span style = "color: #04b8ac;">УНИВЕРСИТЕТ НЕПРЕРЫВНОГО ОБРАЗОВАНИЯ И ИННОВАЦИЙ</span>
           </a>
         </nav>
-        <div class = 'h1' style = "color: #04b8ac;">Курсы повышения квалификации по кафедрам</div>
-        { $table }
+        <div id = 'content'>
+          <div class = 'h1' style = "color: #04b8ac;">
+            Курсы повышения квалификации по кафедрам
+          </div>
+          { $table }
+        </div>
       </div>
     </body>
   </html>

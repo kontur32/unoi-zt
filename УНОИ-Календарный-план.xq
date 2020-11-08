@@ -107,8 +107,10 @@ return
             <span style = "color: #04b8ac;">УНИВЕРСИТЕТ НЕПРЕРЫВНОГО ОБРАЗОВАНИЯ И ИННОВАЦИЙ</span>
           </a>
         </nav>
-        <div class = 'h1' style = "color: #04b8ac;">Календарный план</div>
-        { $содержание }
+        <div id = 'content'>
+          <div class = 'h1' style = "color: #04b8ac;">Календарный план</div>
+          { $содержание }
+        </div>
       </div>
     </body>
   </html>
