@@ -98,8 +98,7 @@ let $ifempty :=
     else()
   }
 
-let $data := 
-  fetch:xml( 'http://iro37.ru:9984/zapolnititul/api/v2.1/data/publication/c48c07c3-a998-47bf-8e33-4d6be40bf4a7' )
+let $data := .
 
 let $виды := $data//table[ @label = 'ДПО' ]
 let $уровни := $data//table[ @label = 'Уровни' ]
@@ -121,12 +120,16 @@ let $содержание :=
           then( $i/cell[ @label = 'Объем' ]/text() )
           else( '0' )
         return
-          replace( $ч , '\D', '' )
+          replace( tokenize( $ч, ',' )[ last() ] , '\D', '' )
         )
     return
       if( $часов >= 256 )
       then( 'Профессиональная переподготовка' )
-      else( 'Курсы повышения квалификации' )
+      else( 
+        if( $часов >= 16 )
+        then( 'Курсы повышения квалификации' )
+        else( 'Консультации' )
+      )
  
   group by $вид
   
