@@ -17,7 +17,7 @@ declare function local:ifNotEmpty( $str, $var ){
   };
 
 declare function local:table( $i ){
-  <table class = "table table-bordered">
+  <table class = "table table-bordered" width="100%">
         <thead>
           <tr class = 'text-center'>
             <th class = 'align-middle' width="20%">Категория слушателей</th>
