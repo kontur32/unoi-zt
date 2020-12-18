@@ -20,12 +20,12 @@ declare function local:table( $i ){
   <table class = "table table-bordered">
         <thead>
           <tr class = 'text-center'>
-            <th class = 'align-middle'>Категория слушателей</th>
-            <th class = 'align-middle'>Название дополнительной профессиональной программы, аннотация</th>
-            <th class = 'align-middle'>Объем программы, час</th>
-            <th class = 'align-middle'>Сроки обучения, час.</th>
-            <th class = 'align-middle'>Стоимость, рублей</th>
-            <th class = 'align-middle'>Руководитель курсов</th>
+            <th class = 'align-middle' width="20%">Категория слушателей</th>
+            <th class = 'align-middle' width="40%">Название дополнительной профессиональной программы, аннотация</th>
+            <th class = 'align-middle' width="10%">Объем программы, час</th>
+            <th class = 'align-middle' width="10%">Сроки обучения, час.</th>
+            <th class = 'align-middle' width="10%">Стоимость, рублей</th>
+            <th class = 'align-middle' width="10%">Руководитель курсов</th>
           </tr>
         </thead>
         <tbody>
